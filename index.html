@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <link
+      rel="shortcut icon"
+      href="assests/Spotify_icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar flex-column">
+      <div class="home">
+        <ul>
+          <li>
+            <i class="fa-brands fa-spotify"></i
+            ><span class="bold">Spotify</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-house"></i
+            ><span class="space bold">Home</span>
+          </li>
+          <li class="light">
+            <i class="fa-solid fa-magnifying-glass"></i
+            ><span class="space">Search</span>
+          </li>
+        </ul>
+      </div>
+      <div class="library">
+        <ul>
+          <li class="light">
+            <i class="fa-solid fa-book"></i
+            ><span class="space right-margin">Your Library</span
+            ><i class="fa-solid fa-plus"></i>
+          </li>
+        </ul>
+        <div class="playlist-container">
+          <div class="create-playsist playlist flex-column">
+            <h3>Create your first playsist</h3>
+            <p>It's easy, we'll help you</p>
+            <button class="playlist-btn btn">Create playlist</button>
+          </div>
+          <div class="browse-podcast playlist flex-column">
+            <h3>Let's find some podcasts to follow</h3>
+            <p>We'll keep you updated on new episodes</p>
+            <button class="playlist-btn btn">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <div class="links-container flex-column">
+        <ul class="links1 links flex-row">
+          <li>Legal</li>
+          <li>Safety & Pravacy Center</li>
+          <li>Privacy Policy</li>
+        </ul>
+        <ul class="links2 links flex-row">
+          <li>Cookies</li>
+          <li>About us</li>
+          <li>Accessibility</li>
+        </ul>
+        <ul class="links3 links flex-row">
+          <li>Cookies</li>
+        </ul>
+        <button class="btn language-btn">
+          <i class="fa-solid fa-globe"></i> English
+        </button>
+      </div>
+    </nav>
+    <div class="main-div">
+      <div class="sign-icons flex-row">
+        <div class="icons flex-row">
+          <i class="fa-solid fa-angle-left"></i>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="signup-login flex-row">
+          <a href="#" class="no-underline">Sign up</a>
+          <button class="btn login">Log in</button>
+        </div>
+      </div>
+      <div class="artist-footer-container">
+        <div class="heading flex-row">
+          <h2>Popular artists</h2>
+          <a class="show-all" href="#">show all</a>
+        </div>
+        <div class="artist-container flex-row margin">
+          <div class="artist flex-column">
+            <img src="assests/pritam.jpg" alt="pritam" class="margin-left" />
+            <h4 class="margin-left">Pritam</h4>
+            <p class="margin-left">Artist</p>
+          </div>
+          <div class="artist flex-column">
+            <img
+              src="assests/arijit-singh.jpeg"
+              alt="arijit singh"
+              class="margin-left"
+            />
+            <h4 class="margin-left">Arijit Singh</h4>
+            <p class="margin-left">Artist</p>
+          </div>
+          <div class="artist flex-column">
+            <img
+              src="assests/anirudh.jpg"
+              alt="Anirudh ravichander"
+              class="margin-left"
+            />
+            <h4 class="margin-left">Anirudh Ravichander</h4>
+            <p class="margin-left">Artist</p>
+          </div>
+          <div class="artist flex-column">
+            <img
+              src="assests/shreya.jpeg"
+              alt="Shreya ghoshal"
+              class="margin-left"
+            />
+            <h4 class="margin-left">Shreya Ghoshal</h4>
+            <p class="margin-left">Artist</p>
+          </div>
+          <div class="artist flex-column">
+            <img
+              src="assests/alka.jpeg"
+              alt="alka yagnik"
+              class="margin-left"
+            />
+            <h4 class="margin-left">Alka Yagnik</h4>
+            <p class="margin-left">Artist</p>
+          </div>
+
+            <div class="artist flex-column hide-show">
+              <img src="assests/ar.jpeg" class="margin-left" alt="A.R. Rahman" />
+              <h4 class="margin-left">A.R. Rahman</h4>
+              <p class="margin-left">Artist</p>
+            </div>
+            <div class="artist flex-column hide-show">
+              <img
+                src="assests/udit.jpeg"
+                alt="udit narayan"
+                class="margin-left"
+              />
+              <h4 class="margin-left">Udit Narayan</h4>
+              <p class="margin-left">Artist</p>
+            </div>
+            <div class="artist flex-column hide-show">
+              <img
+                src="assests/abh.jpeg"
+                alt="amitabh bhattacharya"
+                class="margin-left"
+              />
+              <h4 class="margin-left">Amitabh Bhattacharya</h4>
+              <p class="margin-left">Artist</p>
+            </div>
+            <div class="artist flex-column hide-show">
+              <img
+                src="assests/vm.jpeg"
+                alt="vishal mishra"
+                class="margin-left"
+              />
+              <h4 class="margin-left">Vishal Mishra</h4>
+              <p class="margin-left">Artist</p>
+            </div>
+            <div class="artist flex-column hide-show">
+              <img
+                src="assests/spb.jpeg"
+                alt="sp balasubrahmanyam"
+                class="margin-left"
+              />
+              <h4 class="margin-left">S.P. Balasubrahmanyam</h4>
+              <p class="margin-left">Artist</p>
+            </div>
+        </div>
+        <div class="footer-container flex-row">
+          <ul>
+            <li><h4>Company</h4></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">For the Record</a></li>
+          </ul>
+          <ul>
+            <li><h4>Communities</h4></li>
+            <li><a href="#">For Artists</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">Vendors</a></li>
+          </ul>
+          <ul>
+            <li><h4>Useful links</h4></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Free Mobile App</a></li>
+          </ul>
+        </div>
+        <hr>
+          <div class="subfooter">
+            © 2024 Spotify AB
+          </div>
+        </div>
+    </div>
+    <div class="signup-free flex-row">
+      <div class="paragraph">
+        <p>Preview of Spotify</p>
+        <p>
+          Sign up to get unlimited songs and podcasts with occasional ads. No
+          credit card needed.
+        </p>
+      </div>
+      <button class="signup-free-btn btn">Sign up free</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ab1ed9e7d1.js"
+      crossorigin="anonymous"
+    ></script>
+   <script src="script.js"></script>
+  </body>
+</html>
